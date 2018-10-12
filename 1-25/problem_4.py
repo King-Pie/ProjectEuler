@@ -8,7 +8,8 @@
 
 def is_palindromic(n):
     nstring = str(n)
-    half = len(nstring)/2
+    half = int(len(nstring)/2)
+
     return nstring[:half] == nstring[-half:][::-1]
 
 
@@ -21,4 +22,4 @@ def largest_palindrome():
                         return j, i/j, i
 
 
-print largest_palindrome()
+print(largest_palindrome())

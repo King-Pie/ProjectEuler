@@ -17,4 +17,4 @@ def fibonacci_series(n):
 series = fibonacci_series(4e6)
 evens = [n for n in series if n % 2 == 0]
 answer = sum(evens)
-print answer
+print(answer)

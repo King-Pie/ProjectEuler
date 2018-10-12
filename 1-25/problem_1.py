@@ -37,5 +37,5 @@ def clever_method(n):
 
 
 n = 1000
-print brute_force(n)
-print clever_method(n)
+print(brute_force(n))
+print(clever_method(n))
